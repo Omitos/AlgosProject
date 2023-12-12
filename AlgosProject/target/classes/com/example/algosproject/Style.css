@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Apply common styles to GridPane */
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 50;
+    -fx-padding: 10;
+    -fx-min-width: 300; /* Set the minimum width */
+    -fx-min-height: 200; /* Set the minimum height */
+}
+
+/* Apply common styles to labels */
+.label {
+    -fx-font-size: 14;
+}
+
+/* Apply common styles to text fields */
+.text-field {
+    -fx-font-size: 12;
+    -fx-pref-width: 150;
+}
+
+/* Apply common styles to buttons */
+.button {
+    -fx-font-size: 12;
+    -fx-min-width: 80;
+    -fx-padding: 5;
+}
+
+/* Apply styles to the HBox containing buttons */
+.button-box {
+    -fx-spacing: 10;
+}
+
+/* Apply styles to the VBox containing GridPane and HBox */
+.container {
+    -fx-spacing: 15;
+}
+
+/* Apply some general styles */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view {
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+}
